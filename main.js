@@ -5,7 +5,8 @@ const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
 var path = window.location.pathname;
 var page = path.split("/").pop();
-// console.log(page);
+
+console.log(page);
 // Set Initial State Of Menu
 let showMenu = true;
 if (page == "index.html") {
