@@ -352,13 +352,14 @@ body {
   .menu-branding .portrait {
     width: 150px;
     height: 150px;
-    background: url("../img/phoenix.png");
+    background: url("./mumma.jpg");
     border-radius: 50%;
     border: solid 3px #e86504;
     background-position: center;
-    background-size: 180%;
+    background-size: 80%;
     background-repeat: no-repeat;
     opacity: 1;
+    /* <br> */
   }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
